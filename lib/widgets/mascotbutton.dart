@@ -40,6 +40,7 @@ class _MascotButtonState extends State<MascotButton> {
     );
   }
 
+  //just a test
   void onRiveInit(Artboard ab) {
     ctrl = StateMachineController.fromArtboard(ab, '${widget.action.name}btn')!;
     ab.addController(ctrl);
